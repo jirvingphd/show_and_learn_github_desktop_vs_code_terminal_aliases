@@ -23,9 +23,11 @@ export PATH="$PATH:/opt/WebDriver/bin"
 ## Silencing the "default terminal has changed" warning⁩
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
-## Customizing the prompt text
-# export PS1="\u@\w $ " 
-export PS1="$: "
+## Customizing the prompt text https://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/
+# export PS1="\u@\w $ "  # username + full filepath
+export PS1="\W $: " # just current folder
+# export PS1="$: " # nothing
+
 
 
 ## Aliases
